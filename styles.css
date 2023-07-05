@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    background-color: #252935;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+    font-size: 36px;
+    font-weight: 600; 
+}
+
+i {
+	margin: 0 10px 0 10px;
+}
+
+header {
+	background-color: #252935;
+	color: #EEEEEE;
+	flex-basis: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.title{
+	margin: 10px;
+}
+.button-nav {
+	font-size: 14px;
+	font-weight: 400;
+	margin: 2.5px;
+	padding: 10px 0;
+	border-radius: 3px;
+	background-color: transparent;
+	color: #EEEEEE;
+	border: none;
+}
+.button-nav:hover {
+	background-color: #4E5565 ;
+	cursor: pointer;
+}
+.nav-icon {
+	margin-left: 5px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.main {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+}
+.main-body {
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.top-text,
+.bottom-text {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	background-color: white;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	line-height: 2;
+}
+.top-text {
+	top: 0;
+}
+.bottom-text {
+	bottom: 0;
+}
+.image {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #000000;
+}
+.wrapper {
+	position: relative;
+	width: 600px;
+	height: 600px;
+}
+.download button {
+	height: 50px;
+	width: 160px;
+	background-color: #2f7d31;
+	color: white;
+	font-size: 14px;
+	border: none;
+	border-radius: 5px;
+	margin: 15px 0 20px;
+	padding-right: 5px;
+	cursor: pointer;
+}
