@@ -30,7 +30,7 @@ header {
 	align-items: center;
 	padding: 10px;
 }
-nav {
+.btns-container{
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 10px;
@@ -38,7 +38,7 @@ nav {
 .title{
 	margin: 10px;
 }
-.button-nav {
+.btn {
 	font-size: 14px;
 	font-weight: 400;
 	margin: 2.5px;
@@ -48,11 +48,11 @@ nav {
 	color: #EEEEEE;
 	border: none;
 }
-.button-nav:hover {
+.btn:hover {
 	background-color: #4E5565 ;
 	cursor: pointer;
 }
-.nav-icon {
+.icon {
 	margin-left: 5px;
 	font-family: "Open Sans", sans-serif;
 }
@@ -99,7 +99,7 @@ nav {
 	left: 0;
 	background-color: #000000;
 }
-.wrapper {
+.canvas-container{
 	position: relative;
 	width: 600px;
 	height: 600px;

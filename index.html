@@ -8,13 +8,13 @@
     <script src="https://kit.fontawesome.com/45fa939a1d.js" crossorigin="anonymous"></script>
 </head>
 <body class="themes-dark">
-  <main>
+  <main class="main-body">
     <header class="main-header">
         <h1 class="title">Generador de  Memes</h1>
-        <div>
-            <button aria-label="open-meme" class="btn-img"><i aria-hidden= "true" class="fas fa-image"><span class="icon">Imagen</span></i></button>
-            <button aria-label="open-texto" class="btn-txt"><i aria-hidden= "true" class="fas fa-font"><span class="icon">Texto</span></i></button>
-            <button aria-label="change-themes" class="btn-themes"><i aria-hidden= "true" class="fas fa-lightbulb"><span id="text-theme" class="icon">Modo claro</span></i></button>
+        <div class="btns-container">
+            <button aria-label="open-meme" class="btn" id="btn-img"><i aria-hidden= "true" class="fas fa-image"><span class="icon">Imagen</span></i></button>
+            <button aria-label="open-texto"class="btn" id="btn-txt"><i aria-hidden= "true" class="fas fa-font"><span class="icon">Texto</span></i></button>
+            <button aria-label="change-themes" class="btn" id="btn-themes"><i aria-hidden= "true" class="fas fa-lightbulb"><span id="text-theme" class="icon">Modo claro</span></i></button>
         </div>
     </header>
     <div class="meme-container">
@@ -34,6 +34,18 @@
         </div>
     </div>
     </main>
+    <aside class="panel" id="panel">
+      <!------------Imagen panel-------------->
+      <i aria-label="Cerrar panel" id="close-aside" class="close-aside fas fa-times"></i>
+      <div class="aside-img">
+        <h2>IMAGEN</h2>
+        <form id="imageForm">
+          <div class="flex-column">
+            <label class="bold-text" for="url">URL</label>
+            <input class="input-style" id="url" type="url" placeholder="Ingresá el url de una imagen"/>
+      </div>
+
+    </aside>
     <script src="script.js"></script>
 </body>
 </html>
