@@ -9,15 +9,31 @@ body {
     background-color: #252935;
     font-family: 'Open Sans', sans-serif;
 }
-
-
 h1 {
     font-size: 36px;
     font-weight: 600; 
 }
-
+h2 {
+    text-align: center;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+select {
+    padding: 10px 5px;
+    margin: 5px 0;
+}
 i {
 	margin: 0 10px 0 10px;
+}
+input[type="color"]{
+    width: 23px;
+    height: 21px;
+    border:none;
+    margin-right: 5px;
+    border-radius: 50%;
+    background:none;
 }
 
 header {

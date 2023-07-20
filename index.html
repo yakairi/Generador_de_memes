@@ -40,10 +40,27 @@
       <div class="aside-img">
         <h2>IMAGEN</h2>
         <form id="imageForm">
-          <div class="flex-column">
-            <label class="bold-text" for="url">URL</label>
-            <input class="input-style" id="url" type="url" placeholder="Ingresá el url de una imagen"/>
-      </div>
+          <div class="panel-column">
+            <label class="panel-text" for="url">URL</label>
+            <input class="input-panel" id="url" type="url" placeholder="Ingresá el url de una imagen"/>
+          </div>
+          <label  class="panel-text" for="img-color">FONDO</label>
+          <div class="panel-background">
+            <div id="cont-input" class="cont-input-color">
+              <input aria-label= "Elegí un color de fondo" class="background-input" id="img-color" type="color" value="#191E2B"/>
+                <span
+                  class="text-background-color" id="text-input-color" for="img-color">#191E2B
+                </span>
+              </div>
+              <select title= "Elegí un filtro para el color" class="input-style" name="" id="options-filter-bg">
+                <option value="unset">Ninguno</option>
+                <option value="lighten">Aclarar</option>
+                <option value="darken">Oscurecer</option>
+                <option value="difference">Diferencia</option>
+                <option value="luminosity">Luminosidad</option>
+                <option value="multiply">Multiplicar</option>
+              </select>
+            </div>
 
     </aside>
     <script src="script.js"></script>
